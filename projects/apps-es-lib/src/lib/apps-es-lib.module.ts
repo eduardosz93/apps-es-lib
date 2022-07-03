@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { AppsEsLibComponent } from './apps-es-lib.component';
 
@@ -8,6 +9,7 @@ import { AppsEsLibComponent } from './apps-es-lib.component';
     AppsEsLibComponent
   ],
   imports: [
+    CommonModule
   ],
   exports: [
     AppsEsLibComponent
